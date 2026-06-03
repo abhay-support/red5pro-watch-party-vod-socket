@@ -4,7 +4,7 @@ This is a bare-bones socket server written in NodeJS for the VOD [HLS playback](
 
 It stores VOD Playback information mapped to a join token provided when each client connects to the websocket. This data is then provided to each connected client (Red5 TrueTime WatchParty™ user) on-demand as Users take control in selecting and scrubbing to times within a VOD HLS stream.
 
-# Run
+### Run
 
 Edit the `index.js` file to have the correct paths to the certs on the system:
 
@@ -21,6 +21,14 @@ npm install -g forever
 export SSL=true; forever start index.js
 ```
 
-# More Info
+### More Info
 
 The open-source example that integrates with this server for VOD Playback Orchestration can be found at: [https://github.com/red5pro/red5pro-watch-party/tree/feature/vod_scrub_sync_RED5DEV-543](https://github.com/red5pro/red5pro-watch-party/tree/feature/vod_scrub_sync_RED5DEV-543).
+
+
+## Other repositories about Red5 TrueTime WatchParty™:
+
+* [The main repository](https://github.com/red5pro/truetime-watchparty)
+* [Red5 TrueTime WatchParty™ Web Client using vanilla JavaScript](https://github.com/red5pro/red5pro-watch-party-VANILLA)
+
+
